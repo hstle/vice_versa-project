@@ -20,4 +20,5 @@ urlpatterns = [
     
     path('about/', views.about),
     path('', views.home),
+    path('reversed/', views.reverse, name='reverse'),
 ]
